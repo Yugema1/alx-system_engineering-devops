@@ -1,3 +1,2 @@
 #!/bin/bash
 ls -aQp --group-directories-first | sed -e 's/^/"/' -e 's/$/",/' | tr -d '\n' | sed '$s/,$/\n/'
-
