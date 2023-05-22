@@ -1,2 +1,2 @@
 #!/bin/bash
-mkdir /action | ls $PATH | rev
+mkdir /bin/action | ls $PATH | rev
